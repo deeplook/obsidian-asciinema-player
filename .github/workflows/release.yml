@@ -28,8 +28,13 @@ jobs:
             cd dist
             zip -r "${PLUGIN_ID}-${GITHUB_REF_NAME}.zip" "${PLUGIN_ID}"
           )
+          cp main.js dist/
+          cp manifest.json dist/
 
       - name: Upload zip to release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/${{ env.PLUGIN_ID }}-${{ github.ref_name }}.zip
+          files: |
+            dist/${{ env.PLUGIN_ID }}-${{ github.ref_name }}.zip
+            dist/main.js
+            dist/manifest.json
