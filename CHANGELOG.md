@@ -20,6 +20,6 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 
 <!-- Release link references -->
 [unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.2...HEAD
-[1.0.1]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.2
+[1.0.2]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.2
 [1.0.1]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.1
 [1.0.0]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.0
