@@ -6,6 +6,10 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 
 ## [Unreleased]
 
+## [1.0.2] - 2025-10-14
+
+- Added main.js and manifest.json as release artifacts.
+
 ## [1.0.1] - 2025-10-14
 
 - Minor name changes for admission to Obsidian community plugin list.
@@ -15,6 +19,7 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 - Initial release of the Obsidian Asciinema Player plugin.
 
 <!-- Release link references -->
-[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.1...HEAD
+[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.2...HEAD
+[1.0.1]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.2
 [1.0.1]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.1
 [1.0.0]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.0
