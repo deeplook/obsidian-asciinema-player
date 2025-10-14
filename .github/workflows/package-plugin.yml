@@ -1,0 +1,35 @@
+name: Release Bundle
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    env:
+      PLUGIN_ID: obsidian-asciinema-player
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Package plugin files
+        run: |
+          mkdir -p dist/${PLUGIN_ID}
+          cp manifest.json dist/${PLUGIN_ID}/
+          cp versions.json dist/${PLUGIN_ID}/
+          cp main.js dist/${PLUGIN_ID}/
+          cp styles.css dist/${PLUGIN_ID}/
+          mkdir -p dist/${PLUGIN_ID}/lib
+          cp lib/asciinema-player.js dist/${PLUGIN_ID}/lib/
+          cp lib/asciinema-player.css dist/${PLUGIN_ID}/lib/
+          (
+            cd dist
+            zip -r "${PLUGIN_ID}-${GITHUB_REF_NAME}.zip" "${PLUGIN_ID}"
+          )
+
+      - name: Upload zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/${{ env.PLUGIN_ID }}-${{ github.ref_name }}.zip
