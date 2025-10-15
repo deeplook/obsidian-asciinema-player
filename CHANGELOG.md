@@ -7,6 +7,7 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 ## [Unreleased]
 
 - Minor improvements to the README and CHANGELOG.
+- Harden asciinema player rendering against innerHTML usage.
 
 ## [1.0.2] - 2025-10-14
 

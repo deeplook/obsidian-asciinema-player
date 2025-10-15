@@ -60,9 +60,12 @@ export default class AsciinemaPlayerPlugin extends Plugin {
             player.addEventListener('ended', () => player.play());
           }
         } else {
-          const errorDiv = playerContainer.createEl('div');
-          errorDiv.className = 'asciinema-player-file-not-found';
-          errorDiv.innerHTML = '<span>asciinema-player: ' + castPath + ' not found</span>';
+          const errorDiv = playerContainer.createDiv({
+            cls: 'asciinema-player-file-not-found',
+          });
+          errorDiv.createSpan({
+            text: `asciinema-player: ${castPath} not found`,
+          });
         }
       }
     });
