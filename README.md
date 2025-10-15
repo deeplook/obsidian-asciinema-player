@@ -97,8 +97,6 @@ The UI provides interactive features with keyboard shortcuts for playing, pausin
 
 ## Update the Plugin
 
-The compiled `main.js` file for this plugin has a size of about 2Mb. This is a deliberate design choice made to prioritize reliability and a seamless user experience.
-
 Instead of loading the `asciinema-player` from an external CDN (Content Delivery Network), this plugin **bundles** the entire library directly into its code. While this results in a larger initial file size, it guarantees that the player will work every time, even if you are offline or if the external CDN is unavailable. This trade-off makes for a more robust and dependable Obsidian plugin.
 
 If the `asciinema-player` library is updated, and you think you need the newest version, but it's not bundled in this Obsidian plugin, you will need to update it within the plugin manually:
