@@ -6,8 +6,11 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 
 ## [Unreleased]
 
-- Minor improvements to the README and CHANGELOG.
-- Harden asciinema player rendering against innerHTML usage.
+- ...
+
+## [1.0.3] - 2025-10-15
+
+- Hardened asciinema player rendering against innerHTML usage.
 
 ## [1.0.2] - 2025-10-14
 
@@ -22,7 +25,8 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 - Initial release of the Obsidian Asciinema Player plugin.
 
 <!-- Release link references -->
-[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.2...HEAD
+[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.3...HEAD
+[1.0.3]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.3
 [1.0.2]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.2
 [1.0.1]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.1
 [1.0.0]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.0

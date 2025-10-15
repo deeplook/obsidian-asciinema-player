@@ -1,7 +1,7 @@
 {
 	"id": "asciinema-player",
 	"name": "Asciinema Player",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.9.12",
 	"description": "Embed local and remote Asciinema asciicast files in Markdown notes.",
 	"author": "Dinu Gherman",
