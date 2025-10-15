@@ -4,8 +4,8 @@
 [![Release](https://img.shields.io/github/v/release/deeplook/obsidian-asciinema-player?label=Release&include_prereleases&style=flat)](https://github.com/deeplook/obsidian-asciinema-player/releases)
 [![Plugin Version](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/deeplook/obsidian-asciinema-player/main/manifest.json&query=$.version&label=Plugin%20Version&style=flat)](https://github.com/deeplook/obsidian-asciinema-player/blob/main/manifest.json)
 [![License](https://img.shields.io/github/license/deeplook/obsidian-asciinema-player?label=License&style=flat)](LICENSE)
-[![GH Downloads](https://img.shields.io/github/downloads/deeplook/obsidian-asciinema-player/total?label=GH%20Downloads)](https://github.com/deeplook/obsidian-asciinema-player/releases)
-[![Obs. Downloads](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json&query=$['obsidian-asciinema-player'].downloads&label=Obs.%20Downloads&style=flat)](https://obsidian.md/plugins?id=obsidian-asciinema-player)
+[![Downloads](https://img.shields.io/github/downloads/deeplook/obsidian-asciinema-player/total?label=Downloads&logo=github)](https://github.com/deeplook/obsidian-asciinema-player/releases)
+[![Installs](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json&query=$['asciinema-player'].downloads&label=Installs&style=flat&logo=obsidian&color=7C3AED)](https://obsidian.md/plugins?id=asciinema-player)
 <br/>
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat)](https://www.typescriptlang.org/)
 [![Asciinema Demo](https://img.shields.io/badge/Asciinema-Demo-1abc9c?logo=asciinema&logoColor=white&style=flat)](https://asciinema.org/a/748822)
