@@ -14,6 +14,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+
+      - name: Install dependencies and build
+        run: |
+          npm install -g pnpm
+          pnpm install
+          pnpm run build
+
       - name: Package plugin files
         run: |
           mkdir -p dist/${PLUGIN_ID}
@@ -21,9 +32,6 @@ jobs:
           cp versions.json dist/${PLUGIN_ID}/
           cp main.js dist/${PLUGIN_ID}/
           cp styles.css dist/${PLUGIN_ID}/
-          mkdir -p dist/${PLUGIN_ID}/lib
-          cp lib/asciinema-player.js dist/${PLUGIN_ID}/lib/
-          cp lib/asciinema-player.css dist/${PLUGIN_ID}/lib/
           (
             cd dist
             zip -r "${PLUGIN_ID}-${GITHUB_REF_NAME}.zip" "${PLUGIN_ID}"

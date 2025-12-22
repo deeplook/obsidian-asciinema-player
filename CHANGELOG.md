@@ -8,6 +8,12 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 
 - ...
 
+## [1.0.4] - 2025-12-22
+
+- Removed redundant async/await and improved type safety in code.
+- Removed unused and generated files (`lib/`, `main.js`, `data.json`) from repository.
+- Updated build and copy scripts to reflect file removals.
+
 ## [1.0.3] - 2025-10-15
 
 - Hardened asciinema player rendering against innerHTML usage.
@@ -25,7 +31,8 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 - Initial release of the Obsidian Asciinema Player plugin.
 
 <!-- Release link references -->
-[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.3...HEAD
+[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.4...HEAD
+[1.0.4]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.4
 [1.0.3]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.3
 [1.0.2]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.2
 [1.0.1]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.1

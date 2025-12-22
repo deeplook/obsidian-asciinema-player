@@ -3,7 +3,7 @@ import * as AsciinemaPlayer from 'asciinema-player';
 import 'asciinema-player/dist/bundle/asciinema-player.css';
 
 export default class AsciinemaPlayerPlugin extends Plugin {
-  async onload() {
+  onload() {
     this.registerMarkdownCodeBlockProcessor('asciinema', (source, el, ctx) => {
       const lines = source.split('\n').filter(line => line.trim() !== '');
       if (lines.length === 0) {
@@ -11,7 +11,7 @@ export default class AsciinemaPlayerPlugin extends Plugin {
       }
 
       const castPath = lines[0].trim();
-      const opts: { [key: string]: any } = {};
+      const opts: Record<string, string | number | boolean> = {};
 
       for (let i = 1; i < lines.length; i++) {
         const match = lines[i].match(/^\s*(\w+):\s*(.*)\s*$/);
