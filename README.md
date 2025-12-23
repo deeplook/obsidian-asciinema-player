@@ -1,4 +1,4 @@
-# Obsidian Asciinema Player Plugin
+# Asciinema Player Plugin for Obsidian
 
 [![Build](https://github.com/deeplook/obsidian-asciinema-player/actions/workflows/ci.yml/badge.svg)](https://github.com/deeplook/obsidian-asciinema-player/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/deeplook/obsidian-asciinema-player?label=Release&include_prereleases&style=flat)](https://github.com/deeplook/obsidian-asciinema-player/releases)
@@ -23,14 +23,14 @@ This is an [Obsidian](https://obsidian.md) plugin to embed terminal recordings m
 
 ### Manually
 
-1. Download the ready-to-use zipped archive from the [latest releases](https://github.com/deeplook/obsidian-asciinema-player/releases) page on GitHub (named after the plugin id and version tag e.g., `obsidian-asciinema-player-1.0.4.zip`).
+1. Download the ready-to-use zipped archive from the [latest releases](https://github.com/deeplook/obsidian-asciinema-player/releases) page on GitHub (named after the plugin id and version tag e.g., `obsidian-asciinema-player-1.0.5.zip`).
 2. Unzip it.
 3. Move the extracted `obsidian-asciinema-player` folder into your vault's `.obsidian/plugins` folder.
 4. Then enable the plugin in the "Community Plugins" tab in Obsidian's settings, like when installing any registered community plugin. Example:
 
 ```shell
-curl -O https://github.com/deeplook/obsidian-asciinema-player/releases/download/1.0.4/obsidian-asciinema-player-1.0.4.zip
-unzip obsidian-asciinema-player-1.0.4.zip
+curl -O https://github.com/deeplook/obsidian-asciinema-player/releases/download/1.0.5/obsidian-asciinema-player-1.0.5.zip
+unzip obsidian-asciinema-player-1.0.5.zip
 mv obsidian-asciinema-player /path/to/your-vault/.obsidian/plugins/
 ```
 

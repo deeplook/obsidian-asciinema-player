@@ -8,6 +8,10 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 
 - ...
 
+## [1.0.5] - 2025-12-23
+
+- Changed title of README.md to comply to Obsidian rules.
+
 ## [1.0.4] - 2025-12-22
 
 - Removed redundant async/await and improved type safety in code.
@@ -31,7 +35,8 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 - Initial release of the Obsidian Asciinema Player plugin.
 
 <!-- Release link references -->
-[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.4...HEAD
+[unreleased]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.5...HEAD
+[1.0.5]: https://github.com/deeplook/obsidian-asciinema-player/compare/1.0.5...HEAD
 [1.0.4]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.4
 [1.0.3]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.3
 [1.0.2]: https://github.com/deeplook/obsidian-asciinema-player/releases/tag/1.0.2

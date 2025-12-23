@@ -1,7 +1,8 @@
 {
-	  "id": "asciinema-player",
-	  "name": "Asciinema Player",
-	  "version": "1.0.4",	"minAppVersion": "0.9.12",
+	"id": "asciinema-player",
+	"name": "Asciinema Player",
+	"version": "1.0.5",
+	"minAppVersion": "0.9.12",
 	"description": "Embed local and remote Asciinema asciicast files in Markdown notes.",
 	"author": "Dinu Gherman",
 	"authorUrl": "https://github.com/deeplook",
