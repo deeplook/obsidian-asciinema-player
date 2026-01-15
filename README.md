@@ -51,7 +51,7 @@ To embed an asciicast into an Obsidian note, use a Markdown code block with the 
  
 ````markdown
 ```asciinema
-src: https://asciinema.org/a/748822
+src: https://asciinema.org/a/748822.json
 ```
 ````
 
