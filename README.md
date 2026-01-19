@@ -47,11 +47,11 @@ You can also download examples from [Asciinema.org](https://asciinema.org), e.g.
 To embed an asciicast into an Obsidian note, use a Markdown code block with the language identifier `asciinema` where the first line inside the block must be a reference to the desired `.cast` file:
 
 - For **local files**, use the Obsidian paths starting at the vault's root (e.g., `_attachments/748822.cast`).
-- For **remote files**, prefix the URL with `src:` (e.g., `src: https://asciinema.org/a/748822`).
+- For **remote files**, prefix the URL with `src:` (e.g., `src: https://asciinema.org/a/748822.cast`).
  
 ````markdown
 ```asciinema
-src: https://asciinema.org/a/748822.json
+src: https://asciinema.org/a/748822.cast
 ```
 ````
 
