@@ -19,9 +19,9 @@ This is an [Obsidian](https://obsidian.md) plugin to embed terminal recordings m
 
 ### From Obsidian community plugins list
 
-As a registered community plugin (see [process](https://github.com/obsidianmd/obsidian-releases/pull/8175) here) you can install it as follows: open Obsidian settings, turn on community plugins if not done yet, browse community plugins, search "Asciinema Player", install and enable it.
+As a registered [community plugin](https://obsidian.md/plugins) (see [process](https://github.com/obsidianmd/obsidian-releases/pull/8175) here) you can install it as follows: open Obsidian settings, turn on community plugins if not done yet, browse community plugins, search "Asciinema Player", install and enable it.
 
-### Manually
+### Manual Installation
 
 1. Download the ready-to-use zipped archive from the [latest releases](https://github.com/deeplook/obsidian-asciinema-player/releases) page on GitHub (named after the plugin id and version tag e.g., `obsidian-asciinema-player-1.0.5.zip`).
 2. Unzip it.
