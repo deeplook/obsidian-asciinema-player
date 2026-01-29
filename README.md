@@ -6,10 +6,12 @@
 [![License](https://img.shields.io/github/license/deeplook/obsidian-asciinema-player?label=License&style=flat)](LICENSE)
 [![Downloads](https://img.shields.io/github/downloads/deeplook/obsidian-asciinema-player/total?label=Downloads&logo=github)](https://github.com/deeplook/obsidian-asciinema-player/releases)
 [![Installs](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json&query=$['asciinema-player'].downloads&label=Installs&style=flat&logo=obsidian&color=7C3AED)](https://obsidian.md/plugins?id=asciinema-player)
-<br/>
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat)](https://www.typescriptlang.org/)
 [![Asciinema Demo](https://img.shields.io/badge/Asciinema-Demo-1abc9c?logo=asciinema&logoColor=white&style=flat)](https://asciinema.org/a/748822)
+[![See also](https://img.shields.io/badge/See%20also-Obsidian–Sparklines-1f425f.svg)](https://github.com/deeplook/obsidian-sparklines)
+[![See also](https://img.shields.io/badge/See%20also-Sparklines-1f425f.svg)](https://github.com/deeplook/sparklines)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/deeplook)
+
 
 ![Plugin demo placeholder](matrix.gif)
 
