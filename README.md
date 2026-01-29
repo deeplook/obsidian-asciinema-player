@@ -9,7 +9,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat)](https://www.typescriptlang.org/)
 [![Asciinema Demo](https://img.shields.io/badge/Asciinema-Demo-1abc9c?logo=asciinema&logoColor=white&style=flat)](https://asciinema.org/a/748822)
 [![See also](https://img.shields.io/badge/See%20also-Obsidian–Sparklines-1f425f.svg)](https://github.com/deeplook/obsidian-sparklines)
-[![See also](https://img.shields.io/badge/See%20also-Sparklines-1f425f.svg)](https://github.com/deeplook/sparklines)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/deeplook)
 
 
