@@ -20,7 +20,7 @@ This is an [Obsidian](https://obsidian.md) plugin to embed terminal recordings m
 
 ### From Obsidian community plugins list
 
-As a registered [community plugin](https://obsidian.md/plugins) (see [process](https://github.com/obsidianmd/obsidian-releases/pull/8175) here) you can install it as follows: open Obsidian settings, turn on community plugins if not done yet, browse community plugins, search "Asciinema Player", install and enable it.
+This plugin is listed on the [Obsidian Community Plugins](https://community.obsidian.md/) directory at [community.obsidian.md/plugins/asciinema-player](https://community.obsidian.md/plugins/asciinema-player) and can be installed directly from the Obsidian app: open Settings, enable community plugins if not done yet, browse community plugins, search "Asciinema Player", then install and enable it.
 
 ### Manual Installation
 
