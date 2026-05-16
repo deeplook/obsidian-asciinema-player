@@ -12,15 +12,15 @@
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/deeplook)
 
 
-![Plugin demo placeholder](matrix.gif)
+![Plugin image](matrix.gif)
 
 This is an [Obsidian](https://obsidian.md) plugin to embed terminal recordings made with [Asciinema](https://asciinema.org) inside Markdown files. These recordings, also known as [asciicasts](https://github.com/asciinema/asciinema/blob/develop/doc/asciicast-v2.md), or shorter: casts, can then be rendered inside Obsidian notes with the interactive [Asciinema Player](https://docs.asciinema.org/manual/player/) UI. Many example recordings are available on [Asciinema.org](https://asciinema.org).
 
 ## Installation
 
-### Installation
+### From Obsidian Website or App
 
-This plugin is listed on the [Obsidian Community Plugins](https://community.obsidian.md/) directory at [community.obsidian.md/plugins/asciinema-player](https://community.obsidian.md/plugins/asciinema-player) and can be installed directly from the Obsidian app: open Settings, enable community plugins if not done yet, browse community plugins, search "Asciinema Player", then install and enable it.
+This [Asciinema Player plugin](https://community.obsidian.md/plugins/asciinema-player) is listed on the [Obsidian Community Plugins](https://community.obsidian.md/) and can be installed directly from there. You can also install it from the Obsidian app: open Settings, enable community plugins if not done yet, browse community plugins, search "Asciinema Player", then install and enable it.
 
 ### Manual Installation
 
