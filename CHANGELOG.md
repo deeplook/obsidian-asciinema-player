@@ -6,7 +6,8 @@ The format of this document follows [Keep a Changelog](https://keepachangelog.co
 
 ## [Unreleased]
 
-- ...
+- Added wikilink embeds for local `.cast` files (`![[file.cast]]`). The control bar stays available in reading view and live preview.
+- Opening a `.cast` file plays it in a tab, on a loop, with the control bar. The player fills the tab.
 
 ## [1.0.6] - 2026-05-16
 
