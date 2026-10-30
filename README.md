@@ -62,6 +62,24 @@ _attachments/748822.cast
 ```
 ````
 
+### Embed a cast with a wikilink
+
+Embed a cast file the same way you embed an image:
+
+```markdown
+![[_attachments/748822.cast]]
+```
+
+Set the width the same way you set an image width:
+
+```markdown
+![[_attachments/748822.cast|600]]
+```
+
+Reading view and live preview play the cast in the note. Use the control bar to move through the cast. Open the cast file from the file explorer to play it in a tab. The tab starts on its own, repeats, and shows the control bar. The player fills the tab.
+
+Use an `asciinema` code block to set the options in the next section.
+
 #### Options
 
 You can customize the player by adding options as key-value pairs after the file path.
